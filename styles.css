@@ -1,0 +1,25 @@
+input {
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+}
+
+input:required {
+  border-color: black;
+}
+
+input:valid {
+  border-color: rgb(14, 197, 14);
+}
+
+input:invalid {
+  border-color: rgb(255, 44, 44);
+}
+
+#submit {
+  border-color: black !important;
+}
